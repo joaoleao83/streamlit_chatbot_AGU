@@ -1,0 +1,26 @@
+# Bibliotecas principais
+streamlit==1.32.0
+langchain==0.1.9
+langchain-community==0.0.20
+langchain-google-genai==0.0.8
+faiss-cpu==1.7.4
+
+# Processamento de documentos
+pypdf==4.0.2
+unstructured==0.11.0
+python-docx==1.1.0
+
+# Manipulação de ambiente e dados
+python-dotenv==1.0.1
+pandas==2.2.0
+numpy==1.26.3
+
+# Utilitários
+pydantic==2.5.2
+tenacity==8.2.3
+tiktoken==0.5.2
+
+# Dependências adicionais
+nest-asyncio==1.6.0
+typer==0.9.0
+pyarrow==15.0.0
