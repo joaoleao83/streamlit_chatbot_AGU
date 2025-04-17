@@ -6,6 +6,8 @@
 
 ## Sobre o Projeto
 
+O projeto está disponível no repositório Github: https://github.com/joaoleao83/streamlit_chatbot_AGU.git. Inicie o aplicativo acessando o endereço eletrônico https://appchatbotagu.streamlit.app/.
+
 Este chatbot foi desenvolvido para ajudar devedores a obterem informações sobre o Programa Desenrola, uma iniciativa do Governo Federal para facilitar a renegociação de dívidas de autarquias e fundações públicas federais (como IBAMA, INMETRO, ANTT, ANS, DNIT, entre outros), no âmbito da Procuradoria-Geral Federal/AGU. O programa prevê, no art. 22 da Lei n. 14.973/2024, a transação extraordinária, que concede ao devedor condições mais favoráveis para quitar os seus débitos não tributários, como multas, por exemplo.
 
 O programa de renegociação de dívidas foi regulamentado pela Lei n. 14.973/2024, e outras normas infralegais, que dispõem sobre aspectos mais específicos da implementação e disponibilização do programa. O público-alvo é composto pelas pessoas (físicas e jurídicas) que detêm dívidas não tributárias perante as autarquias e as fundações públicas federais. 
@@ -13,8 +15,6 @@ O programa de renegociação de dívidas foi regulamentado pela Lei n. 14.973/20
 O programa foi instituído recentemente (a Lei n. 14.973/2024 passou a vigorar em 16 de setembro de 2024), razão pela qual os modelos de Large Language Models (LLM), a depender da base de dados pelas quais foram alimentados, podem não ter as informações necessárias para guiar o usuário do chatbot. Dessa forma, o chatbot utiliza em conjunto com um modelo de LLM, a técnica denominada Retrival-Augmented Generation (RAG). 
 
 O RAG, em suma, decompõe os documentos fornecidos em blocos (chunks), que são vetorizados (embbedings), fazendo com que haja um índice que vincula o vetor ao bloco de documento. Com isso, o prompt a ser passado para o modelo LLM, contém alem da pergunta do usuário, o histórico das perguntas/respostas e alguns desses blocos de documentos. Esses blocos são selecionados de acordo com a indexação capturada pela pergunta do usuário.
-
-O projeto está disponível no repositório Github: https://github.com/joaoleao83/streamlit_chatbot_AGU.git.
 
 ## Funcionalidades
 
