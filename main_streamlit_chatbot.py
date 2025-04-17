@@ -133,7 +133,7 @@ with col2:
     st.markdown("<h1 class='main-header'>Programa Desenrola</h1>", unsafe_allow_html=True)
 
 # Inicializar modelo de linguagem (LLM)
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro-exp-03-25", google_api_key=GOOGLE_API_KEY)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro-preview-03-25", google_api_key=GOOGLE_API_KEY)
 
 prompt = ChatPromptTemplate.from_template(
     """
