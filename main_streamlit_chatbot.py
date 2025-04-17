@@ -308,7 +308,7 @@ with st.form(key="chat_form"):
     with col1:
         # Usar uma chave dinamicamente alterada para forçar a reinicialização do input
         user_question = st.text_input(
-            "Digite sua pergunta sobre os documentos:", 
+            "Digite sua pergunta sobre o programa Desenrola:", 
             key=f"user_question_{st.session_state.input_key}"
         )
     with col2:
